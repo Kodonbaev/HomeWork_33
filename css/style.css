@@ -1,0 +1,86 @@
+body {
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin: 0;
+    background: #ededed;
+}
+.container {
+    width: 982px;
+    margin: 0 auto;
+    line-height: 1.7;
+}
+.header {
+    background: #474747;
+    position: relative;
+}
+.text-header {
+    padding: 34px 0;
+    color: #c6c6c6;
+    font-size: 22px;
+    line-height: 1.7;
+    box-sizing: border-box;
+}
+.data-center {
+    position: absolute;
+    top: -10px;
+    right: 187px;
+    box-sizing: border-box;
+    padding: 36px 50px;
+
+    background: #2f549b;
+    -webkit-box-shadow: 0px 2px 9px 0px rgba(19, 19, 19, 0.55);
+    -moz-box-shadow:    0px 2px 9px 0px rgba(19, 19, 19, 0.55);
+    box-shadow:         0px 2px 9px 0px rgba(19, 19, 19, 0.55);
+
+}
+.data-number {
+    font-size: 85px;
+    font-weight: normal;
+    color: #fff;
+    margin: 0;
+}
+.data-number::before {
+    content: "";
+    background: url("../images/pic-hd-boch.png") no-repeat;
+    width: 75px;
+    height: 72px;
+    display: inline-block;
+    padding: 37px;
+    box-sizing: border-box;
+}
+.data-text {
+    color: #c6c6c6;
+    font-size: 34px;
+    line-height: 32px;
+    display: inline-block;
+}
+/*** Promo ***/
+.promo {
+    text-align: center;
+}
+.box {
+    width: 25%;
+    background: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 5px;
+    box-shadow: 0px  0 2px 0px rgba(19, 19, 19, 0.25);
+}
+.promo-main {
+    color: #2f549b;
+    font-size: 34px;
+}
+.promo p {
+    font-size: 14px;
+    color: #2f549b;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 20px;
+}
+.promo span {
+    color: #5e5e5e;
+    font-size: 14px;
+}
+.btn {
+    display: block;
+    padding: 20px;
+    color: #d5d5d5;
+}

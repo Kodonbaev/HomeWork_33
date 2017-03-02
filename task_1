@@ -1,0 +1,70 @@
+
+Актилек@▒▒▒▒▒▒▒-▒▒ MINGW64 ~
+$ cd Desktop/
+
+Актилек@▒▒▒▒▒▒▒-▒▒ MINGW64 ~/Desktop
+$ cd HomeWork/
+
+Актилек@▒▒▒▒▒▒▒-▒▒ MINGW64 ~/Desktop/HomeWork
+$ cd Home_33
+bash: cd: Home_33: No such file or directory
+
+Актилек@▒▒▒▒▒▒▒-▒▒ MINGW64 ~/Desktop/HomeWork
+$ mkdir Home_33
+
+Актилек@▒▒▒▒▒▒▒-▒▒ MINGW64 ~/Desktop/HomeWork
+$ cd Home_33
+
+Актилек@▒▒▒▒▒▒▒-▒▒ MINGW64 ~/Desktop/HomeWork/Home_33
+$ touch index.html
+
+Актилек@▒▒▒▒▒▒▒-▒▒ MINGW64 ~/Desktop/HomeWork/Home_33
+$ mkdir css uploads images js vendor
+
+Актилек@▒▒▒▒▒▒▒-▒▒ MINGW64 ~/Desktop/HomeWork/Home_33
+$ cd css
+
+Актилек@▒▒▒▒▒▒▒-▒▒ MINGW64 ~/Desktop/HomeWork/Home_33/css
+$ touch style.css reset.css
+
+Актилек@▒▒▒▒▒▒▒-▒▒ MINGW64 ~/Desktop/HomeWork/Home_33/css
+$ ls
+reset.css  style.css            
+
+Актилек@▒▒▒▒▒▒▒-▒▒ MINGW64 ~/Desktop/HomeWork/Home_33/css
+$ cd ../
+
+Актилек@▒▒▒▒▒▒▒-▒▒ MINGW64 ~/Desktop/HomeWork/Home_33
+$ echo "<h1>Hello World</h1>" > index.html
+
+Актилек@▒▒▒▒▒▒▒-▒▒ MINGW64 ~/Desktop/HomeWork/Home_33
+$ echo ""
+
+
+Актилек@▒▒▒▒▒▒▒-▒▒ MINGW64 ~/Desktop/HomeWork/Home_33
+$ echo "<h3>Home Work</h3>" >> index.html
+
+Актилек@▒▒▒▒▒▒▒-▒▒ MINGW64 ~/Desktop/HomeWork/Home_33
+$ cat index.html
+<h1>Hello World</h1>
+<h3>Home Work</h3>
+
+Актилек@▒▒▒▒▒▒▒-▒▒ MINGW64 ~/Desktop/HomeWork/Home_33
+$ cd js
+
+Актилек@▒▒▒▒▒▒▒-▒▒ MINGW64 ~/Desktop/HomeWork/Home_33/js
+$ touch main.js
+
+Актилек@▒▒▒▒▒▒▒-▒▒ MINGW64 ~/Desktop/HomeWork/Home_33/js
+$ cd ../
+
+Актилек@▒▒▒▒▒▒▒-▒▒ MINGW64 ~/Desktop/HomeWork/Home_33
+$ ls
+css/  images/  index.html  js/  uploads/  vendor/
+
+Актилек@▒▒▒▒▒▒▒-▒▒ MINGW64 ~/Desktop/HomeWork/Home_33
+$ git init
+Initialized empty Git repository in C:/Users/Актилек/Desktop/HomeWork/Home_33/.git/
+
+Актилек@▒▒▒▒▒▒▒-▒▒ MINGW64 ~/Desktop/HomeWork/Home_33 (master)
+$
