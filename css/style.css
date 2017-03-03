@@ -76,17 +76,27 @@ body {
     margin: 5px;
     box-shadow: 0px  0 2px 0px rgba(19, 19, 19, 0.25);
 }
+.box:hover {
+    background: #2f549b;
+    color: #fff;
+}
+.box:hover h2,.box:hover  p,.box:hover span {
+    color: #fff;
+}
+
 .promo-main {
     color: #2f549b;
     font-size: 34px;
     margin: 20px 0 0;
+    font-weight: normal;
 }
+
 .promo p {
     font-size: 16px;
     color: #2f549b;
     border-bottom: 1px solid #e5e5e5;
     padding-bottom: 20px;
-    margin: 0;
+    /*margin: 0;*/
 }
 .promo span {
     color: #5e5e5e;
@@ -100,17 +110,18 @@ body {
     color: #d5d5d5;
 }
 .text-modif-1 {
-    margin-top: 34px;
+    margin-top: 22px;
 }
 .text-modif-2 {
-    margin-top: 18px;
+    margin-top: 3px;
 }
 .text-modif-3 {
-    margin-top: 24px;
+    margin-top: 3px;
 }
 .text-modif-4 {
-    margin-top: 41px;
+    margin-top: 19px;
 }
+
 /*** Info ***/
 .info {
     margin-top: 40px;
@@ -175,4 +186,10 @@ body {
 }
 .info-box:hover span {
     color: #fff;
+}
+@media screen and (max-width: 950px){
+    .data-center {
+        position: static;
+        width: 47%;
+    }
 }
