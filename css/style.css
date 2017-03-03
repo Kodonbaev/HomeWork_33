@@ -191,5 +191,17 @@ body {
     .data-center {
         position: static;
         width: 47%;
+        padding: 0;
+    }
+}
+@media screen and (max-width: 650px) {
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+
+    }
+    .box {
+        display: block;
+        width: 90%;
     }
 }
