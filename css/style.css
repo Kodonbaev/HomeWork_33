@@ -24,7 +24,7 @@ body {
     top: -10px;
     right: 187px;
     box-sizing: border-box;
-    padding: 36px 50px;
+    padding: 25px 50px;
 
     background: #2f549b;
     -webkit-box-shadow: 0px 2px 9px 0px rgba(19, 19, 19, 0.55);
@@ -56,11 +56,20 @@ body {
 /*** Promo ***/
 .promo {
     text-align: center;
+    margin: 70px 0;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: center;
 }
 .box {
-    width: 25%;
+    width: 23%;
     background: #fff;
-    padding: 20px;
+    padding: 20px 25px 0;
     box-sizing: border-box;
     margin: 5px;
     box-shadow: 0px  0 2px 0px rgba(19, 19, 19, 0.25);
@@ -68,19 +77,37 @@ body {
 .promo-main {
     color: #2f549b;
     font-size: 34px;
+    margin: 20px 0 0;
 }
 .promo p {
-    font-size: 14px;
+    font-size: 16px;
     color: #2f549b;
     border-bottom: 1px solid #e5e5e5;
     padding-bottom: 20px;
+    margin: 0;
 }
 .promo span {
     color: #5e5e5e;
-    font-size: 14px;
+    font-size: 16px;
+    display: block;
+    padding-top: 18px;
 }
 .btn {
     display: block;
-    padding: 20px;
+    padding: 11px;
     color: #d5d5d5;
 }
+.text-modif-1 {
+    margin-top: 34px;
+}
+.text-modif-2 {
+    margin-top: 18px;
+}
+.text-modif-3 {
+    margin-top: 24px;
+}
+.text-modif-4 {
+    margin-top: 41px;
+}
+
+
